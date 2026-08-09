@@ -137,4 +137,5 @@ def to_do_list():
             a -= 1
         a += 1
          
-to_do_list()
+if __name__ == '__main__':
+    to_do_list()
