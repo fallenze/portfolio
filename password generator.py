@@ -10,9 +10,9 @@ while True:
         print('Ошибка!\n')
         continue
         
-    if length >= 25:
+    if length > 25:
         print('Пароль слишком длинный\n')
-    elif length <= 8:
+    elif length < 8:
         print('Пароль слишком короткий\n')
     else:
         break
